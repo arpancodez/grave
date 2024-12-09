@@ -38,7 +38,7 @@ export const grave_options: ClientOptions = {
 export const grave_presence: PresenceData = {
     activities: [
         {
-            name: '/play',
+            name: 'client.guilds.cache.size',
             type: ActivityType.Listening,
         },
     ],
